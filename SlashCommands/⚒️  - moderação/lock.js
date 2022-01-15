@@ -57,7 +57,7 @@ module.exports = {
         .setAuthor(`Destrancado trancado por: ${interaction.user.tag}`, interaction.user.displayAvatarURL({ dynamic: true }))
         .setDescription(`Canal: ${channel} \n Cargo: ${role}`)
         .setColor(config.embed)
-        .setFooter("By: Pani Kaz#8893 ")
+        .setFooter("Destroy Bot ")
         await channel.permissionOverwrites.edit(role, {
             SEND_MESSAGES: null
         })
