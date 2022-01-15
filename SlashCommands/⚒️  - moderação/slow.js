@@ -43,7 +43,7 @@ module.exports = {
                 .addField('Deseja ativar?',"```/slow-mode <tempo em milisegundos>```", true)
         
                 .setColor(config.embed)
-    .setFooter("By: Pani Kaz#8893 ")
+    .setFooter("Destroy Bot ")
     
     return interaction.channel.setRateLimitPerUser(time).then(msg =>{
                interaction.followUp({embeds: [embed]});
@@ -62,7 +62,7 @@ module.exports = {
             .addField('Slowmode: ', `\`\`\`${string}ms\`\`\``, true)
     
             .setColor(config.embed)
-.setFooter("By: Pani Kaz#8893 ")
+.setFooter("Destroy Bot ")
 
         interaction.channel.setRateLimitPerUser(time).then(msg =>{
             interaction.followUp({embeds: [embed]})
