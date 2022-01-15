@@ -28,7 +28,7 @@ if(!interaction.guild.me.permissions.has("ADMINISTRADOR")) return interaction.fo
     .setTitle("Setei")
     .setDescription(`${channel} foi setado como canal de saida`)
     .setColor(config.embed)
-    .setFooter("By: Pani Kaz#8893 ")
+    .setFooter("Destroy Bot ")
 
 db.set(`saida_${interaction.guild.id}`, channel.id)
 interaction.followUp({embeds: [setei]})
