@@ -45,7 +45,7 @@ run:  async(client, interaction, args) => {
         .setTitle(t)
         .setDescription(d)
         .setColor(config.embed)
-        .setFooter("By: Pani Kaz#8893 ")
+        .setFooter("Destroy Bot ")
      
         
 
