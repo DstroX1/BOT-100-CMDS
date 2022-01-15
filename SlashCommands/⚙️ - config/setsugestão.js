@@ -23,7 +23,7 @@ if(!interaction.guild.me.permissions.has("ADMINISTRADOR")) return interaction.fo
         .setTitle("Ativo!")
         .setDescription(`Sugestões foram ativas no ${interaction.channel}`)
         .setColor(config.embed)
-     .setFooter("By: Pani Kaz#8893 ")
+     .setFooter("Destroy Bot ")
 interaction.followUp({embeds: [embed]});
  
 
