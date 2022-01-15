@@ -32,7 +32,7 @@ run:  async(client, interaction, args) => {
     .setTitle(`Não posso remover dar o cargo!`)
     .setDescription(`Não tenho permissão de \`Gerenciar Cargos!\` `)
     .setColor(config.embed)
-    .setFooter("By: Pani Kaz#8893 ")
+    .setFooter("Destroy Bot ")
 
 
     if (!interaction.guild.me.permissions.has('ADMINISTRADOR')) return interaction.followUp({embeds: [nãotenho]})
@@ -54,7 +54,7 @@ run:  async(client, interaction, args) => {
         .setTitle("Eu removi o cargo!")
         .setDescription(`Foi removido de ${membro} o cargo: <@&${role1.id}> `)
         .setColor(config.embed)
-        .setFooter("By: Pani Kaz#8893 ")
+        .setFooter("Destroy Bot ")
      
         
 
