@@ -31,9 +31,9 @@ interaction.followUp({content: `Epa, setup de tikcet iniciado!`})
 const row = new Discord.MessageActionRow().addComponents(criar)
 let embed = new Discord.MessageEmbed()
 .setTitle("Olá! Deseja fazer algo?")
-.setDescription("Leia antes!", `COLOQUE REGRAS AQUI!!!!!!!!!`)
+.setDescription("Leia antes!")
 .setColor(config.embed)
-.setFooter("By: Pani Kaz#8893 ")
+.setFooter("Destroy Bot ")
 channel.send({embeds: [embed], components: [row]})
 
 
